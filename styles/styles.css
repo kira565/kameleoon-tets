@@ -1,0 +1,79 @@
+.header {
+    height: 15vh;
+    border: 2px solid skyblue;
+    padding: 2vh;
+}
+.hidden {
+    display: none;
+}
+
+.main {
+    margin-top: 3vh;
+}
+
+.main__navigation {
+    border: 2px solid skyblue;
+    margin-bottom: 3vh;
+    padding: 2vh;
+}
+
+.main__sidebar {
+    border: 2px solid skyblue;
+    height: 55vh;
+    padding: 2vh;
+}
+
+.main__content {
+    border: 2px solid skyblue;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+
+}
+.main__content button{
+    width: 50%;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    background: skyblue;
+
+}
+.main__content button:hover {
+    opacity: .7;
+}
+
+.main__left-sidebar {
+    border: 2px solid skyblue;
+    height: 67vh;
+    text-align: center;
+
+}
+
+.products {
+    margin-top: 2vh;
+    border: 2px solid skyblue;
+    height: 30vh;
+    text-align: center;
+}
+.product {
+    margin-top: 1vh;
+}
+.product__img img{
+    height: 10vh;
+    width: 10vh;
+}
+
+.footer {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 15vh;
+    border: 2px solid skyblue;
+    padding: 2vh;
+}
+
+.segment-title {
+    background: midnightblue;
+    color: white;
+    margin-bottom: 2vh;
+
+}
